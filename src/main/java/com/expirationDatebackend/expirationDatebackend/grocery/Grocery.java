@@ -1,8 +1,22 @@
 package com.expirationDatebackend.expirationDatebackend.grocery;
 
+import javax.persistence.*;
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
+@Entity
+@Table
 public class Grocery {
+    @Id
+    @SequenceGenerator(
+            name = "grocery_sequence",
+            sequenceName = "grocery_sequence",
+            allocationSize = 1
+    )
+    @GeneratedValue(
+            strategy = GenerationType.SEQUENCE,
+            generator = "grocery_sequence"
+    )
     private Integer id;
     private String type;
     private String name;
@@ -76,12 +90,13 @@ public class Grocery {
 
     @Override
     public String toString() {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d-MMM-yyyy");
         return "Grocery{" +
                 "id=" + id +
                 ", type='" + type + '\'' +
                 ", name='" + name + '\'' +
                 ", brand='" + brand + '\'' +
-                ", dateOpened=" + dateOpened +
+                ", dateOpened=" + dateOpened.format(formatter) +
                 ", daysToConsume=" + daysToConsume +
                 '}';
     }
