@@ -17,7 +17,7 @@ public class Grocery {
             strategy = GenerationType.SEQUENCE,
             generator = "grocery_sequence"
     )
-    private Integer id;
+    private Long id;
     private String type;
     private String name;
     private String brand;
@@ -48,7 +48,7 @@ public class Grocery {
         return type;
     }
 
-    public Integer getId(){
+    public Long getId(){
         return id;
     }
 

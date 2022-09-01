@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a515c4ed-8d3b-4a59-8e77-80103eb6972d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/expirationDatebackend/expirationDatebackend/ExpirationDateBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/expirationDatebackend/expirationDatebackend/ExpirationDateBackendApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/expirationDatebackend/expirationDatebackend/grocery/Grocery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/expirationDatebackend/expirationDatebackend/grocery/Grocery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/expirationDatebackend/expirationDatebackend/grocery/GroceryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/expirationDatebackend/expirationDatebackend/grocery/GroceryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/expirationDatebackend/expirationDatebackend/ExpirationDateBackendApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/expirationDatebackend/expirationDatebackend/ExpirationDateBackendApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/expirationDatebackend/expirationDatebackend/grocery/GroceryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/expirationDatebackend/expirationDatebackend/grocery/GroceryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/expirationDatebackend/expirationDatebackend/grocery/Grocery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/expirationDatebackend/expirationDatebackend/grocery/Grocery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/expirationDatebackend/expirationDatebackend/grocery/GroceryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/expirationDatebackend/expirationDatebackend/grocery/GroceryService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -29,11 +31,15 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
@@ -61,12 +67,18 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/sashakurbanova/expirationDate/expirationDate-backend",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RunManager">
@@ -90,7 +102,7 @@
       <workItem from="1661801607933" duration="733000" />
       <workItem from="1661802622264" duration="9000" />
       <workItem from="1661802673065" duration="2000" />
-      <workItem from="1661802681726" duration="6361000" />
+      <workItem from="1661802681726" duration="8482000" />
     </task>
     <servers />
   </component>
