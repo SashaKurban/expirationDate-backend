@@ -1,0 +1,7 @@
+{
+  "timestamp": "2022-09-02T14:22:37.234+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Cannot invoke \"java.time.LocalDate.format(java.time.format.DateTimeFormatter)\" because \"this.dateOpened\" is null",
+  "path": "/api/v1/grocery"
+}

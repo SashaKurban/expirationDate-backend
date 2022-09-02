@@ -1,0 +1,7 @@
+{
+  "timestamp": "2022-09-02T14:41:50.500+00:00",
+  "status": 400,
+  "error": "Bad Request",
+  "message": "JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String \"2022/11/12\": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2022/11/12' could not be parsed at index 4; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String \"2022/11/12\": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2022/11/12' could not be parsed at index 4\n at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 5, column: 21] (through reference chain: com.expirationDatebackend.expirationDatebackend.grocery.Grocery[\"expirationDate\"])",
+  "path": "/api/v1/grocery"
+}

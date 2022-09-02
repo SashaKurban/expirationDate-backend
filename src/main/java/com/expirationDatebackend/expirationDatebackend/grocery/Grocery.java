@@ -1,8 +1,8 @@
 package com.expirationDatebackend.expirationDatebackend.grocery;
 
 import javax.persistence.*;
+import java.time.Duration;
 import java.time.LocalDate;
-import java.time.Period;
 import java.time.format.DateTimeFormatter;
 
 @Entity
@@ -31,6 +31,42 @@ public class Grocery {
     public Grocery() {
     }
 
+    public Grocery(Grocery grocery){
+        this.type = grocery.getType();
+        this.name = grocery.getName();
+        this.brand = grocery.getBrand();
+
+        if(grocery.getDateOpened() == null){
+            this.dateOpened = LocalDate.now();
+        }else{
+            this.dateOpened = grocery.getDateOpened();
+        }
+
+        if(!(grocery.getDaysToConsume() == null && grocery.getExpirationDate() == null)){
+            if(grocery.getDaysToConsume() == null){
+                this.daysToConsume = (int)Duration.between( LocalDate.now().atStartOfDay(),
+                        grocery.getExpirationDate().atStartOfDay()).toDays();
+            }else{
+                this.daysToConsume = grocery.getDaysToConsume();
+            }
+            if(grocery.getExpirationDate() == null){
+                this.expirationDate = dateOpened.plusDays(grocery.getDaysToConsume());
+            }else{
+                this.expirationDate = grocery.getExpirationDate();
+            }
+        }
+    }
+
+    public Grocery(String type, String name, String brand, LocalDate expirationDate) {
+        this.type = type;
+        this.name = name;
+        this.brand = brand;
+        this.dateOpened = LocalDate.now();
+        this.expirationDate = expirationDate;
+        this.daysToConsume = (int)Duration.between( LocalDate.now().atStartOfDay(),
+                this.expirationDate.atStartOfDay()).toDays();
+
+    }
     public Grocery(String type, String name, String brand, Integer daysToConsume) {
         this.type = type;
         this.name = name;
@@ -38,7 +74,8 @@ public class Grocery {
         this.daysToConsume = daysToConsume;
         //if no dateOpened given, use current date
         this.dateOpened = LocalDate.now();
-        this.expirationDate = dateOpened.plusDays(daysToConsume);
+        this.expirationDate = dateOpened.plusDays(this.daysToConsume);
+
     }
 
     public Grocery(String type, String name, String brand, LocalDate dateOpened, Integer daysToConsume) {
@@ -47,17 +84,8 @@ public class Grocery {
         this.brand = brand;
         this.dateOpened = dateOpened;
         this.daysToConsume = daysToConsume;
-        this.expirationDate = dateOpened.plusDays(daysToConsume);
-    }
+        this.expirationDate = this.dateOpened.plusDays(this.daysToConsume);
 
-    public Grocery(Long id, String type, String name, String brand, LocalDate expirationDate) {
-        this.id = id;
-        this.type = type;
-        this.name = name;
-        this.brand = brand;
-        this.dateOpened = LocalDate.now();
-        this.expirationDate = expirationDate;
-        this.daysToConsume = Period.between( LocalDate.now(), expirationDate).getDays();
     }
 
     public String getType() {
@@ -89,7 +117,8 @@ public class Grocery {
     }
 
     public Integer getDaysLeft() {
-        return Period.between(LocalDate.now(), expirationDate).getDays();
+        return (int)Duration.between( LocalDate.now().atStartOfDay(),
+                this.expirationDate.atStartOfDay()).toDays();
     }
 
     public void setType(String type) {
@@ -115,6 +144,7 @@ public class Grocery {
     public void setExpirationDate(LocalDate expirationDate){
         this.expirationDate= expirationDate;
     }
+
     @Override
     public String toString() {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d-MMM-yyyy");
@@ -123,9 +153,9 @@ public class Grocery {
                 ", type='" + type + '\'' +
                 ", name='" + name + '\'' +
                 ", brand='" + brand + '\'' +
-                ", dateOpened=" + dateOpened.format(formatter) +
+                ", dateOpened=" + dateOpened +
                 ", daysToConsume=" + daysToConsume +
-                ", expirationDate =" + expirationDate+
+                ", expirationDate =" + expirationDate +
                 ", days left= " + this.getDaysLeft() +
                 '}';
     }

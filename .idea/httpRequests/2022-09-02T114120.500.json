@@ -1,0 +1,7 @@
+{
+  "timestamp": "2022-09-02T15:41:20.442+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Cannot invoke \"java.time.LocalDate.atStartOfDay()\" because \"this.expirationDate\" is null",
+  "path": "/api/v1/grocery"
+}

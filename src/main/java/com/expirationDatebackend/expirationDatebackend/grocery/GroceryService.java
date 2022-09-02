@@ -18,4 +18,13 @@ public class GroceryService {
     public List<Grocery> getGroceries(){
         return groceryRepository.findAll();
     }
+
+    public void addNewGrocery(Grocery grocery) {
+        if(grocery.getDaysToConsume() == null && grocery.getExpirationDate()==null){
+            throw new IllegalStateException("At least one filed must be provided: expiration date or days to consume");
+        }else{
+            groceryRepository.save(new Grocery(grocery));
+        }
+
+    }
 }
