@@ -27,4 +27,12 @@ public class GroceryService {
         }
 
     }
+
+    public void deleteGrocery(Long groceryId) {
+        if(groceryRepository.existsById(groceryId)){
+            groceryRepository.deleteById(groceryId);
+        }else{
+            throw new IllegalStateException("grocery with ID " + groceryId + " does not exist");
+        }
+    }
 }

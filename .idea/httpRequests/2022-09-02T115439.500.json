@@ -1,0 +1,7 @@
+{
+  "timestamp": "2022-09-02T15:54:39.516+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "At least one filed must be provided: expiration date or days to consume",
+  "path": "/api/v1/grocery"
+}

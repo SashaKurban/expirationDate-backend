@@ -24,6 +24,11 @@ public class GroceryController {
     public void addNewGrocery(@RequestBody Grocery grocery){
         groceryService.addNewGrocery(grocery);
     }
+
+    @DeleteMapping(path = "{groceryId}")
+    public void deleteGrocery(@PathVariable("groceryId") Long groceryId){
+        groceryService.deleteGrocery(groceryId);
+    }
 }
 
 
