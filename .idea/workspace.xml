@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a515c4ed-8d3b-4a59-8e77-80103eb6972d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/expirationDatebackend/expirationDatebackend/grocery/Grocery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/expirationDatebackend/expirationDatebackend/grocery/Grocery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/expirationDatebackend/expirationDatebackend/grocery/GroceryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/expirationDatebackend/expirationDatebackend/grocery/GroceryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/expirationDatebackend/expirationDatebackend/grocery/Grocery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/expirationDatebackend/expirationDatebackend/grocery/Grocery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/expirationDatebackend/expirationDatebackend/grocery/GroceryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/expirationDatebackend/expirationDatebackend/grocery/GroceryService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +99,7 @@
       <workItem from="1661801607933" duration="733000" />
       <workItem from="1661802622264" duration="9000" />
       <workItem from="1661802673065" duration="2000" />
-      <workItem from="1661802681726" duration="8482000" />
+      <workItem from="1661802681726" duration="12371000" />
     </task>
     <servers />
   </component>
