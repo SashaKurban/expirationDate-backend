@@ -94,6 +94,9 @@
     <configuration name="generated-requests | #6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="6" requestIdentifier="#6" runType="Run single request">
       <method v="2" />
     </configuration>
+    <configuration name="generated-requests | #7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" requestIdentifier="#7" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="ExpirationDateBackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="expirationDate-backend" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.expirationDatebackend.expirationDatebackend.ExpirationDateBackendApplication" />
@@ -103,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #7" />
         <item itemvalue="HTTP Request.generated-requests | #6" />
         <item itemvalue="HTTP Request.generated-requests | #5" />
         <item itemvalue="HTTP Request.generated-requests | #4" />
@@ -121,7 +125,7 @@
       <workItem from="1661801607933" duration="733000" />
       <workItem from="1661802622264" duration="9000" />
       <workItem from="1661802673065" duration="2000" />
-      <workItem from="1661802681726" duration="19501000" />
+      <workItem from="1661802681726" duration="22767000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,7 @@
+{
+  "timestamp": "2022-09-02T16:53:44.401+00:00",
+  "status": 400,
+  "error": "Bad Request",
+  "message": "Failed to convert value of type 'java.lang.String' to required type 'java.time.LocalDate'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.RequestParam java.time.LocalDate] for value '2022-10-01'; nested exception is java.lang.IllegalArgumentException: Parse attempt failed for value [2022-10-01]",
+  "path": "/api/v1/grocery/1"
+}

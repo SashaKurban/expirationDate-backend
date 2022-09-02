@@ -3,6 +3,7 @@ package com.expirationDatebackend.expirationDatebackend.grocery;
 import javax.persistence.*;
 import java.time.Duration;
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
 @Entity
@@ -123,6 +124,10 @@ public class Grocery {
                 this.expirationDate.atStartOfDay()).toDays();
     }
 
+    public Long getSeconds(){
+        return Duration.between( LocalDate.now().atTime(LocalTime.now()),
+                this.expirationDate.atStartOfDay()).toSeconds();
+    }
     public void setType(String type) {
         this.type = type;
     }
@@ -147,10 +152,6 @@ public class Grocery {
         this.expirationDate= expirationDate;
     }
 
-    public Long getSeconds(){
-        return Duration.between( LocalDate.now().atStartOfDay(),
-                this.expirationDate.atStartOfDay()).toSeconds();
-    }
     @Override
     public String toString() {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d-MMM-yyyy");

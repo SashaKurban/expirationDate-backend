@@ -1,3 +1,67 @@
+PUT http://localhost:8080/api/v1/grocery/1?expirationDate=2022-10-01
+
+###
+
+PUT http://localhost:8080/api/v1/grocery/1?expirationDate=2022-10-01
+
+###
+
+PUT http://localhost:8080/api/v1/grocery/1?expirationDate=2022-10-01
+
+###
+
+PUT http://localhost:8080/api/v1/grocery/1?expirationDate=2022-10-01
+
+<> 2022-09-02T125352.400.json
+
+###
+
+PUT http://localhost:8080/api/v1/grocery/1?expirationDate=2022-10-01
+
+<> 2022-09-02T125344.400.json
+
+###
+
+PUT http://localhost:8080/api/v1/grocery/1?expirationDate=2022/10/01
+
+<> 2022-09-02T125319.400.json
+
+###
+
+PUT http://localhost:8080/api/v1/grocery/1
+Content-Type: application/json
+
+{
+  "type": "dairy",
+  "name": "milk",
+  "brand": "HomeGood"
+}
+
+###
+
+PUT http://localhost:8080/api/v1/grocery/1
+Content-Type: application/json
+
+{
+  "type": "dairy",
+  "name": "milk",
+  "brand": "HomeGood"
+}
+
+###
+
+PUT http://localhost:8080/api/v1/grocery/1?name=sandwitch?daysToConsume=18
+
+###
+
+PUT http://localhost:8080/api/v1/grocery/1?name=sandwitch,daysToConsume=18
+
+###
+
+PUT http://localhost:8080/api/v1/grocery/1?name="sandwitch"daysToConsume=18
+
+###
+
 DELETE http://localhost:8080/api/v1/grocery/1
 
 ###
