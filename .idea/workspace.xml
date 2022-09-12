@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a515c4ed-8d3b-4a59-8e77-80103eb6972d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-09-02T102247.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-09-02T103629.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/expirationDatebackend/expirationDatebackend/ExpirationDateBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/expirationDatebackend/expirationDatebackend/ExpirationDateBackendApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/expirationDatebackend/expirationDatebackend/grocery/Grocery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/expirationDatebackend/expirationDatebackend/grocery/Grocery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/expirationDatebackend/expirationDatebackend/grocery/GroceryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/expirationDatebackend/expirationDatebackend/grocery/GroceryConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/expirationDatebackend/expirationDatebackend/grocery/GroceryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/expirationDatebackend/expirationDatebackend/grocery/GroceryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +138,7 @@
       <workItem from="1662229385980" duration="17000" />
       <workItem from="1662229476008" duration="2264000" />
       <workItem from="1662745215211" duration="9745000" />
-      <workItem from="1663013993423" duration="1208000" />
+      <workItem from="1663013993423" duration="1684000" />
     </task>
     <servers />
   </component>
