@@ -10,7 +10,6 @@
 	</parent>
 	<groupId>com.expirationDate-backend</groupId>
 	<artifactId>expirationDate-backend</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>expirationDate-backend</name>
 	<description>Backend for expirationDate Project</description>
 	<properties>

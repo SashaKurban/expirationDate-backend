@@ -28,8 +28,7 @@ public class Grocery {
     private LocalDate expirationDate;
     @Transient
     private Integer daysLeft;
-    @Transient
-    private Long seconds;
+
 
     public Grocery() {
     }
@@ -124,10 +123,6 @@ public class Grocery {
                 this.expirationDate.atStartOfDay()).toDays();
     }
 
-    public Long getSeconds(){
-        return Duration.between( LocalDate.now().atTime(LocalTime.now()),
-                this.expirationDate.atStartOfDay()).toSeconds();
-    }
     public void setType(String type) {
         this.type = type;
     }
@@ -164,7 +159,6 @@ public class Grocery {
                 ", daysToConsume=" + daysToConsume +
                 ", expirationDate =" + expirationDate +
                 ", days left= " + this.getDaysLeft() +
-                ", minutes = " + this.getSeconds()+
                 '}';
     }
 

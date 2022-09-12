@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import java.time.LocalDate;
 import java.util.List;
 @RestController
-@RequestMapping(path = "api/v1/grocery")
+@RequestMapping(path = "/api/expirationDate")
 public class GroceryController {
 
     private final GroceryService groceryService;
