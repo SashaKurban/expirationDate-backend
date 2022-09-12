@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: sashakurbanova
+Build-Jdk: Oracle OpenJDK version 17.0.4
+Implementation-Title: expirationDate-backend
+Implementation-Version: 2.7.3
+Implementation-Vendor-Id: com.expirationDate-backend
+Main-Class: ${start-class}
+
