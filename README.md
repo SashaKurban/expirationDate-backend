@@ -11,6 +11,7 @@ Spring Boot REST API with PostgreSQL database to calculate, track and update exp
 
 ## Description
 
+This project was created as a backend for the [Expiration Date project](https://expiration-date.vercel.app/?), were the user can enter track the expiration dates of their groceries, add new groceries and update or delete groceries already on the list. The backend allows the user to save their grocery data to the PostgreSQL database, calculating the days left to consume the product. The user can retrive their data at any time, with days left until expiration being updated to fit the current local date.
 
 
 
