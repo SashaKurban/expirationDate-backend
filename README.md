@@ -1,3 +1,6 @@
+![Screen Shot 2022-09-30 at 4 49 17 PM](https://user-images.githubusercontent.com/64791611/193363996-aaeb26f0-fa1c-4975-9c27-6e4245289d72.png)
+
+
 # Expiration Date backend
 Spring Boot REST API with PostgreSQL database to calculate, track and update expiration dates of consumable goods/groceries.
 
