@@ -1,0 +1,7 @@
+{
+  "timestamp": "2022-09-20T00:30:16.735+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "At least one filed must be provided: expiration date or days to consume",
+  "path": "/api/expirationDate"
+}

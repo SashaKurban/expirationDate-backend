@@ -137,14 +137,18 @@ public class Grocery {
 
     public void setDateOpened(LocalDate dateOpened) {
         this.dateOpened = dateOpened;
+        this.expirationDate = dateOpened.plusDays(this.daysToConsume);
     }
 
     public void setDaysToConsume(Integer daysToConsume) {
         this.daysToConsume = daysToConsume;
+        this.expirationDate = dateOpened.plusDays(this.daysToConsume);
     }
 
     public void setExpirationDate(LocalDate expirationDate){
         this.expirationDate= expirationDate;
+        this.daysToConsume = (int)Duration.between( dateOpened.atStartOfDay(),
+                this.expirationDate.atStartOfDay()).toDays();
     }
 
     @Override

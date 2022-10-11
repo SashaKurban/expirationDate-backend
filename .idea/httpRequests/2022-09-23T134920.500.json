@@ -1,0 +1,7 @@
+{
+  "timestamp": "2022-09-23T17:49:20.262+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "grocery with id 1does not exist",
+  "path": "/api/expirationDate/1"
+}

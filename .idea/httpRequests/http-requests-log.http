@@ -1,3 +1,117 @@
+PUT http://localhost:8080/api/expirationDate/13
+Content-Type: application/json
+
+{
+  "type": "condiment",
+  "name": "ketchup",
+  "brand": "HomeGood",
+  "expirationDate": "2022-11-12"
+}
+
+<> 2022-10-03T104354.400.json
+
+###
+
+PUT http://localhost:8080/api/expirationDate/13
+Content-Type: application/json
+
+{
+  "type": "condiment",
+  "name": "ketchup",
+  "brand": "HomeGood",
+  "expirationDate": "2022-11-12"
+}
+
+<> 2022-10-03T104353.400.json
+
+###
+
+PUT http://localhost:8080/api/expirationDate/13
+Content-Type: application/json
+
+{
+  "type": "condiment",
+  "name": "ketchup",
+  "brand": "HomeGood",
+  "expirationDate": "2022-11-12"
+}
+
+<> 2022-10-03T104309.400.json
+
+###
+
+PUT http://localhost:8080/api/expirationDate/13
+Content-Type: application/json
+
+{
+  "type": "meat",
+  "name": "ketchup",
+  "brand": "HomeGood",
+  "expirationDate": "2022-11-12"
+}
+
+<> 2022-10-03T104245.400.json
+
+###
+
+POST http://localhost:8080/api/expirationDate
+Content-Type: application/json
+
+{
+  "type": "condiment",
+  "name": "ketchup",
+  "brand": "HomeGood",
+  "expirationDate": "2022-11-12"
+}
+
+###
+
+PUT http://localhost:8080/api/expirationDate/12?name=candy&daysToConsume=88
+
+###
+
+PUT http://localhost:8080/api/expirationDate/12?name=candy/daysToConsume=88
+
+###
+
+PUT http://localhost:8080/api/expirationDate/12?name=candy daysToConsume=88
+
+###
+
+PUT http://localhost:8080/api/expirationDate/12?name=candy,daysToConsume=88
+
+###
+
+PUT http://localhost:8080/api/expirationDate/12?name=candy?daysToConsume=88
+
+###
+
+PUT http://localhost:8080/api/expirationDate/12?name=candy
+
+###
+
+PUT http://localhost:8080/api/expirationDate/12?name="candy"
+
+###
+
+PUT http://localhost:8080/api/expirationDate/1?name="candy"
+
+<> 2022-09-23T134920.500.json
+
+###
+
+POST http://localhost:8080/api/expirationDate
+Content-Type: application/json
+
+{
+  "type": "condiment",
+  "name": "ketchup",
+  "brand": "HomeGood",
+  "expirationDate": "2022-11-12"
+}
+
+###
+
 POST http://localhost:8080/api/expirationDate
 Content-Type: application/json
 
@@ -369,196 +483,6 @@ Content-Type: application/json
 }
 
 <> 2022-09-02T111103.500.json
-
-###
-
-POST http://localhost:8080/api/v1/grocery
-Content-Type: application/json
-
-{
-  "type": "condiment",
-  "name": "ketchup",
-  "brand": "HomeGood",
-  "expirationDate": "2022-11-12"
-}
-
-###
-
-POST http://localhost:8080/api/v1/grocery
-Content-Type: application/json
-
-{
-  "type": "dairy",
-  "name": "milk",
-  "brand": "HomeGood",
-  "daysToConsume":  "15"
-}
-
-<> 2022-09-02T110435.500.json
-
-###
-
-POST http://localhost:8080/api/v1/grocery
-Content-Type: application/json
-
-{
-  "type": "dairy",
-  "name": "milk",
-  "brand": "HomeGood",
-  "daysToConsume":  "15"
-}
-
-###
-
-POST http://localhost:8080/api/v1/grocery
-Content-Type: application/json
-
-{
-  "type": "dairy",
-  "name": "milk",
-  "brand": "HomeGood",
-  "daysToConsume":  "15"
-}
-
-###
-
-POST http://localhost:8080/api/v1/grocery
-Content-Type: application/json
-
-{
-  "type": "dairy",
-  "name": "milk",
-  "brand": "HomeGood",
-  "daysToConsume":  "15"
-}
-
-<> 2022-09-02T105058.500.json
-
-###
-
-POST http://localhost:8080/api/v1/grocery
-Content-Type: application/json
-
-{
-  "type": "dairy",
-  "name": "milk",
-  "brand": "HomeGood",
-  "daysToConsume":  "15"
-}
-
-<> 2022-09-02T104701.500.json
-
-###
-
-POST http://localhost:8080/api/v1/grocery
-Content-Type: application/json
-
-{
-  "type": "dairy",
-  "name": "milk",
-  "brand": "HomeGood",
-  "daysToConsume":  "15"
-}
-
-<> 2022-09-02T104236.500.json
-
-###
-
-POST http://localhost:8080/api/v1/grocery
-Content-Type: application/json
-
-{
-  "type": "condiment",
-  "name": "ketchup",
-  "brand": "HomeGood",
-  "expirationDate": "2022-11-12"
-}
-
-<> 2022-09-02T104211.500.json
-
-###
-
-POST http://localhost:8080/api/v1/grocery
-Content-Type: application/json
-
-{
-  "type": "condiment",
-  "name": "ketchup",
-  "brand": "HomeGood",
-  "expirationDate": "2022-11-12"
-}
-
-<> 2022-09-02T104208.500.json
-
-###
-
-POST http://localhost:8080/api/v1/grocery
-Content-Type: application/json
-
-{
-  "type": "condiment",
-  "name": "ketchup",
-  "brand": "HomeGood",
-  "expirationDate": "2022/11/12"
-}
-
-<> 2022-09-02T104150.400.json
-
-###
-
-POST http://localhost:8080/api/v1/grocery
-Content-Type: application/json
-
-{
-  "type": "condiment",
-  "name": "ketchup",
-  "brand": "HomeGood",
-  "expirationDate": "2022/11/12"
-}
-
-<> 2022-09-02T104146.400.json
-
-###
-
-POST http://localhost:8080/api/v1/grocery
-Content-Type: application/json
-
-{
-  "type": "dairy",
-  "name": "milk",
-  "brand": "HomeGood",
-  "daysToConsume":  "15"
-}
-
-<> 2022-09-02T104010.500.json
-
-###
-
-POST http://localhost:8080/api/v1/grocery
-Content-Type: application/json
-
-{
-  "type": "dairy",
-  "name": "milk",
-  "brand": "HomeGood",
-  "daysToConsume":  "15"
-}
-
-<> 2022-09-02T104006.500.json
-
-###
-
-POST http://localhost:8080/api/v1/grocery
-Content-Type: application/json
-
-{
-  "type": "dairy",
-  "name": "milk",
-  "brand": "HomeGood",
-  "expirationDate": "2022-10-20"
-}
-
-<> 2022-09-02T103913.500.json
 
 ###
 
